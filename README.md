@@ -1,20 +1,28 @@
 # CS-320 Software Testing Portfolio
 
-This repository showcases my work for CS-320 Software Test, Automation QA. It contains projects, JUnit tests, and reflections demonstrating my approach to software testing and test coverage.
+This repository contains my work for **CS-320 Software Test, Automation QA**. It includes selected files from Project One and the summary and reflections report from Project Two. These artifacts show my work in software testing, automation, and quality assurance, along with my reflections on the course.  
 
-## Project One: Contact, Task, and Appointment Services
-A backend mobile application with three core services:
-- **ContactService** – Manage contacts with full CRUD functionality
-- **TaskService** – Track and update tasks
-- **AppointmentService** – Schedule and manage appointments, avoiding conflicts
+---
 
-### Testing Highlights
-- **Unit Testing** – Validates each service independently
-- **Boundary Testing** – Handles edge cases like duplicates and overlaps
-- **Coverage Analysis** – Ensures all functional requirements are tested
-- **Reflections** – Discusses mindset, testing strategies, and lessons learned
+## Project One: Contact Service
+Files included:  
+- `Contact.java`  
+- `ContactService.java`  
+- `ContactTest.java`  
+- `ContactServiceTest.java`  
 
-## Repository Structure
-- `/ProjectOne` – Source code for the three services
-- `/Tests` – JUnit test files
-- `/Reports` – Summary and reflections report
+These files show how I used unit testing to confirm the service was working as expected and how testing was applied to uncover issues early.  
+
+---
+
+## Project Two: Summary and Reflections Report
+This project includes my written summary and reflection report. It discusses testing strategies, lessons learned, and how the requirements were tested through automation and analysis.  
+
+---
+
+## Reflection
+To make sure my code and software are functional and secure, I rely on unit tests, boundary testing, and coverage analysis to confirm requirements are met and that the code behaves as expected. For security I follow good practices like validating inputs and making sure sensitive data is handled properly.  
+
+I interpret user needs by looking closely at the requirements and translating them into specific features or behaviors in the program. I use the requirements to design tests so I know the program works the way the user expects it to.  
+
+When I design software I start with the requirements and then break them into smaller parts that can be built and tested. I focus on keeping the design simple, reliable, and testable so it is easier to maintain and improve over time.  
